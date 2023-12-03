@@ -23,7 +23,9 @@ Then saves it in the DB under word Collection.
 - When finding a word, the essay service looks for that word under the word
 Collection
 
+
 Why I chose to implement to word store in such a way?
+
 I wanted to separated that ﬂow of processing the content from the essay creating. We return a
 response to the client that the creating of the essay was done. In the background there is
 another process (run with thread execution pool…) that in charge of the word
