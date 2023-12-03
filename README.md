@@ -59,6 +59,9 @@ How to run this?
 3. Java run the created Jar for the service
 4. Import to postman (or edit to see the CURL)
 5. Run the HTTP endpoint (from postman or other way).
+   
+
+
 For any question, please feel free to contact me: 050-5795099 ☺
 Thanks!
 Yotam Eliraz
