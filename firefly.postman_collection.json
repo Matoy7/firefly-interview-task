@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "876fd5eb-3476-4c1c-a75e-0048b91c6e59",
+		"name": "firefly",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1979651"
+	},
+	"item": [
+		{
+			"name": "bankword",
+			"item": [
+				{
+					"name": "create bank word",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "yotam.eliraz@solitics.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "Yotamosh7",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"filePath\": \"C:\\\\Users\\\\Yotam\\\\Downloads\\\\words.txt\" \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/words/save-bank-words-from-file",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"words",
+								"save-bank-words-from-file"
+							],
+							"query": [
+								{
+									"key": "words-url",
+									"value": "\"https://raw.githubusercontent.com/dwyl/english-words/master/words.txt\"",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "url-parsing-request",
+			"item": [
+				{
+					"name": "save-essay-parsing-requests-from-file",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "yotam.eliraz@solitics.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "Yotamosh7",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"filePath\": \"C:\\\\Users\\\\Yotam\\\\Downloads\\\\words.txt\" \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/words/save-bank-words-from-file",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"words",
+								"save-bank-words-from-file"
+							],
+							"query": [
+								{
+									"key": "words-url",
+									"value": "\"https://raw.githubusercontent.com/dwyl/english-words/master/words.txt\"",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "top word",
+			"item": [
+				{
+					"name": "get-most-occurring-words",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "yotam.eliraz@solitics.com",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "Yotamosh7",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"filePath\": \"C:\\\\Users\\\\Yotam\\\\Downloads\\\\words.txt\" \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/words/save-bank-words-from-file",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"words",
+								"save-bank-words-from-file"
+							],
+							"query": [
+								{
+									"key": "words-url",
+									"value": "\"https://raw.githubusercontent.com/dwyl/english-words/master/words.txt\"",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
