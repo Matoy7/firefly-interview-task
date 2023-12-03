@@ -56,7 +56,7 @@ which includes running the task each time we do mvn-install.
 How to run this?
 1. Run local mongo on the default port (cmd: mongod --port 27017)
 2. Mvn clean install the service
-3. Java run the created Jar for each service
+3. Java run the created Jar for the service
 4. Import to postman (or edit to see the CURL)
 5. Run the HTTP endpoint (from postman or other way).
 For any question, please feel free to contact me: 050-5795099 ☺
